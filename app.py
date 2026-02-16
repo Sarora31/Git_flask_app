@@ -7,7 +7,7 @@ app = Flask(__name__)
 # ---------------------------
 # MongoDB Atlas Configuration
 # ---------------------------
-MONGO_URI = "mongodb+srv://Dbase:1234@database.5mgbzog.mongodb.net/?appName=Database"
+MONGO_URI = "mongodb+srv://dbusername:password@database.5mgbzog.mongodb.net/?appName=Database"
 
 client = MongoClient(MONGO_URI)
 db = client["mydatabase"]
